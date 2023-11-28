@@ -43,10 +43,16 @@ struct ContentView: View {
                     let third = User(name: "Roy Kent", city: "London", joinDate: .now.addingTimeInterval(86400 * 5))
                     let fourth = User(name: "Johnny English", city: "London", joinDate: .now.addingTimeInterval(86400 * 10))
                     
+                    let job1 = Job(name: "Organize sock drawer", priority: 3)
+                    let job2 = Job(name: "Make plans with Alex", priority: 4)
+                    
                     modelContext.insert(first)
                     modelContext.insert(second)
                     modelContext.insert(third)
                     modelContext.insert(fourth)
+                    
+                    first.jobs.append(job1)
+                    first.jobs.append(job2)
                 }
                 
                 Button(showingUpcomingOnly ? "Show Everyone" : "Show Upcoming") {
