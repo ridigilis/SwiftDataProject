@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		59E427572B15851600F5FD09 /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E427562B15851600F5FD09 /* EditUserView.swift */; };
+		59E427592B1630DC00F5FD09 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E427582B1630DC00F5FD09 /* UsersView.swift */; };
 		59FAF79F2B157D9100EE53D2 /* SwiftDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FAF79E2B157D9100EE53D2 /* SwiftDataProjectApp.swift */; };
 		59FAF7A12B157D9100EE53D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FAF7A02B157D9100EE53D2 /* ContentView.swift */; };
 		59FAF7A32B157D9300EE53D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59FAF7A22B157D9300EE53D2 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		59E427562B15851600F5FD09 /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
+		59E427582B1630DC00F5FD09 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 		59FAF79B2B157D9100EE53D2 /* SwiftDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FAF79E2B157D9100EE53D2 /* SwiftDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataProjectApp.swift; sourceTree = "<group>"; };
 		59FAF7A02B157D9100EE53D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		59FAF79D2B157D9100EE53D2 /* SwiftDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				59E427582B1630DC00F5FD09 /* UsersView.swift */,
 				59FAF7AC2B157DFD00EE53D2 /* User.swift */,
 				59FAF79E2B157D9100EE53D2 /* SwiftDataProjectApp.swift */,
 				59FAF7A02B157D9100EE53D2 /* ContentView.swift */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E427592B1630DC00F5FD09 /* UsersView.swift in Sources */,
 				59FAF7A12B157D9100EE53D2 /* ContentView.swift in Sources */,
 				59E427572B15851600F5FD09 /* EditUserView.swift in Sources */,
 				59FAF79F2B157D9100EE53D2 /* SwiftDataProjectApp.swift in Sources */,
