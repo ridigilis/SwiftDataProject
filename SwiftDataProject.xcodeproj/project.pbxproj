@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59E427572B15851600F5FD09 /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E427562B15851600F5FD09 /* EditUserView.swift */; };
 		59FAF79F2B157D9100EE53D2 /* SwiftDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FAF79E2B157D9100EE53D2 /* SwiftDataProjectApp.swift */; };
 		59FAF7A12B157D9100EE53D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FAF7A02B157D9100EE53D2 /* ContentView.swift */; };
 		59FAF7A32B157D9300EE53D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59FAF7A22B157D9300EE53D2 /* Assets.xcassets */; };
 		59FAF7A62B157D9300EE53D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59FAF7A52B157D9300EE53D2 /* Preview Assets.xcassets */; };
+		59FAF7AD2B157DFD00EE53D2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FAF7AC2B157DFD00EE53D2 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59E427562B15851600F5FD09 /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
 		59FAF79B2B157D9100EE53D2 /* SwiftDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FAF79E2B157D9100EE53D2 /* SwiftDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataProjectApp.swift; sourceTree = "<group>"; };
 		59FAF7A02B157D9100EE53D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59FAF7A22B157D9300EE53D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59FAF7A52B157D9300EE53D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59FAF7AC2B157DFD00EE53D2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		59FAF79D2B157D9100EE53D2 /* SwiftDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				59FAF7AC2B157DFD00EE53D2 /* User.swift */,
 				59FAF79E2B157D9100EE53D2 /* SwiftDataProjectApp.swift */,
 				59FAF7A02B157D9100EE53D2 /* ContentView.swift */,
 				59FAF7A22B157D9300EE53D2 /* Assets.xcassets */,
 				59FAF7A42B157D9300EE53D2 /* Preview Content */,
+				59E427562B15851600F5FD09 /* EditUserView.swift */,
 			);
 			path = SwiftDataProject;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				59FAF7A12B157D9100EE53D2 /* ContentView.swift in Sources */,
+				59E427572B15851600F5FD09 /* EditUserView.swift in Sources */,
 				59FAF79F2B157D9100EE53D2 /* SwiftDataProjectApp.swift in Sources */,
+				59FAF7AD2B157DFD00EE53D2 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
